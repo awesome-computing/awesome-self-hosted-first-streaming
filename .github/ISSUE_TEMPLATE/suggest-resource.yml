@@ -1,0 +1,40 @@
+name: Suggest a resource
+description: Suggest a tool, protocol, or resource for the list
+title: "[Resource]: "
+labels: ["resource-suggestion"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+      description: The name of the tool, project, protocol, or article
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Link to the resource
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License
+      description: e.g. MIT, Apache-2.0, AGPL-3.0, "open spec", or "proprietary" — if unsure, say so
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Category
+      description: Which section of the README does this belong in? (or propose a new one)
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why does this fit the self-hosted-first-streaming thesis?
+      description: One or two sentences on why this belongs on this specific list
+    validations:
+      required: true
