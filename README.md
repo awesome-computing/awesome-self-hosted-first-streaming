@@ -49,6 +49,7 @@ RTMP itself deserves a specific note: Adobe stopped actively developing Flash lo
   - [nginx-rtmp-module](https://github.com/arut/nginx-rtmp-module) `(BSD-2-Clause)` — the classic self-hosted RTMP ingest/relay module for nginx.
   - [SRS (Simple Realtime Server)](https://github.com/ossrs/srs) `(MIT)` — RTMP/WebRTC/SRT/HLS all-in-one media server, widely used in production.
   - [MediaMTX](https://github.com/bluenviron/mediamtx) `(MIT)` — ready-to-use RTMP/RTSP/HLS/WebRTC/SRT server and proxy, zero external dependencies.
+  - [OpenRTMP](https://github.com/OpenRTMP/librtmp2-server) `(MIT)` — Rust-based RTMP/RTMPS and Enhanced RTMP media server with OBS/FFmpeg support, REST API, live statistics, Docker, and clustering.
   - [OvenMediaEngine](https://github.com/AirenSoft/OvenMediaEngine) `(AGPL-3.0)` — sub-second latency streaming server (WebRTC/LLHLS/SRT ingest and delivery).
   - [Ant Media Server](https://github.com/ant-media/Ant-Media-Server) `(open-core — Community Edition source available on GitHub; Enterprise is proprietary; verify current license terms before depending on it)`.
 
